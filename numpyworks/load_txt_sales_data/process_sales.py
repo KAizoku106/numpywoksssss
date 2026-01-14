@@ -35,3 +35,6 @@ revenue_north = north[:,3].astype("int") *  north[:,4].astype("int")
 print(revenue_north)
 total_rev_nort = np.sum(revenue_north)
 print(total_rev_nort)
+
+
+
