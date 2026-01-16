@@ -73,6 +73,7 @@ print("top five highest total run matches",sorteddata[-1:-6:-1,:])
 #17  Calculate the average wickets per season
 
 
+
 #18  most common venue
 venue = data[:,4]
 ven,countvenue= np.unique(venue,return_counts=True)
