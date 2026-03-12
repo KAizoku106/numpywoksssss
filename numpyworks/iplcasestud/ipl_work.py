@@ -18,6 +18,7 @@ print(f"average man of the match run = {np.average(data[:,-2].astype("int"))}")
 #6 Count how many matches were played at Wankhede
 Wank= data[data[:,4]=="Wankhede"]
 print(f"Wankhede matches = {np.count_nonzero(Wank[:,0]).astype("int")}")
+print(f"{np.count_nonzero(Wank[:,0]).astype("int")==0}")
 
 #7 Display all matches where total_wickets > 15.
 
